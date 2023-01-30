@@ -1,0 +1,38 @@
+<!--Importando partials para meu script-->
+<%- include ('partials/header.ejs'); %>
+
+<body>
+    <%- include ('partials/navbar.ejs'); %>
+    <!--Deve se criar uma div chamada container-->
+    <!--Container centraliza o conteúdo no meio do navegador-->
+    <!--Tudo que estiver dentro do container fica centralizado-->
+    <div class="container">
+        <!--Adicionando card ao formulário-->
+        <!--Um card no bootstrap é dividido entre card-header e card-body-->
+        <div class="card"  id="formulario-pergunta">
+            <div class="card-header">
+                <h3>Realizar pergunta</h3>
+            </div>
+            <div class="card-body">
+
+                <!--Primeiro definir com qual método o formulário irá trabalhar (get e post)-->
+                <!--Comando action escolhe a rota para enviar-->
+                <form method="post" action="/salvarpergunta">
+                    <label>Titulo</label>
+                    <!--Classe "form-control" deixa os campos de formulários mais bonitos-->
+                    <input type="text" placeholder="Titulo" class="form-control" name="titulo">
+                    <br>
+                    <label>Descrição</label>
+                    <textarea placeholder="Descreva sua pergunta aqui" class="form-control" name="description"></textarea>
+                    <br>
+                    <!--"btn e suas variações" deixam o botão mais bonito-->
+                    <button class="btn btn-success">Perguntar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<%- include ('partials/footer.ejs'); %>

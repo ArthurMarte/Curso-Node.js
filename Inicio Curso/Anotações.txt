@@ -1,0 +1,40 @@
+NODE.JS
+
+Javascript -> criado para funcionar apenas nos 
+navegadores. 
+Todo navegador tem um interpretador que permite
+que eles executem o javascript para criar paginas web.
+
+
+Interpretador - Software responsável por entender um código e executar
+esses códigos.
+
+NODE.JS -> interpretador javascript que roda fora dos
+navegadores.
+   * Muito leve
+   * Muito Rápido
+   * Usa javascript
+   * Tem um dos maiores ecossistemas do mundo.
+
+
+
+HTTP -> Protocolo de Transferência de dados na web.
+Manda informações de um cliente a um servidor central
+(do google por exemplo) através do protocolo HTTP.
+
+
+
+-> Iniciar um projeto NPM
+Pasta Node Modules -> onde ficam instaladas todas as bibliotecas do projeto
+package.json -> identidade do proejto / tem todas as informações do meu projeto
+
+
+
+Express - framework que ajuda na construção de aplicações web com o node.
+
+
+
+Rotas -> aplicação precisa de criar rotas "app.get"
+
+
+Carregamento automático - usar o "nodemon" -> npm install nodemon -g

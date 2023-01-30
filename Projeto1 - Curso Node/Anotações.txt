@@ -1,0 +1,27 @@
+EJS -> Motor de templates (usado para desenhar HTML), 
+	  desenha o html pro usuário na tela.
+
+
+Instalar express - npm install express --save
+Instalar ejs - npm install ejs --save
+
+(Para ver se instalou entrar na pasta package.json que contém
+todos os pacotes instalados).
+
+
+Todos os arquivos HTML devem ser salvos dentro da pasta views.
+(extensão .ejs)
+
+
+Para não precisar ficar usando o mesmo código em vários scripts
+HTML, usamos o conceito de partials, que recorta o código para que possa
+ser usado sempre que preciso.
+
+Instalar biblioteca para receber dados do formulário -> npm install body-parser --save
+
+Utilizar sequelize para auxiliar no uso de banco de dados
+Comandos - npm install --save sequelize
+		   npm install --save mysql2
+
+
+Model -> representação da tabela no código Javascript
